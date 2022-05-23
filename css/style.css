@@ -14,10 +14,14 @@ img {
 
 /* HEADER ========================= */
 
+header {
+  background: #000;
+}
+
 .menu {
   max-width: 800px;
   margin: 0 auto;
-  padding: 15px 0;
+  padding: 8px 0;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -30,16 +34,15 @@ img {
 }
 
 .menu-nav li a {
-  color: #000;
-  font-size: 15px;
-  font-weight: bold;
+  color: #fff;
+  font-size: 20px;
   padding: 10px 10px;
   display: block;
 }
 
 .menu-nav li a:hover {
-  background-color: black;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
   border-radius: 3px;
 }
 
@@ -52,6 +55,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .conteudo p {
@@ -60,7 +64,7 @@ img {
   font-weight: 300;
   font-style: normal;
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 35px;
 }
 
 /* PROJETOS */
@@ -70,7 +74,7 @@ img {
   flex-wrap: wrap;
   max-width: 800px;
   margin: 0 auto;
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 
 .projeto > div {
@@ -82,8 +86,8 @@ img {
   background-color: #000;
   color: #fff;
   text-align: center;
-  text-transform: uppercase;
   font-size: bold;
+  padding-bottom: 3px;
 }
 
 /* CONTATOS ======================== */
@@ -95,6 +99,7 @@ img {
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
+  margin-bottom: 161px;
 }
 .contatos {
   display: flex;
@@ -108,4 +113,16 @@ img {
   padding: 15px;
   border-radius: 3px;
   cursor: pointer;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  height: 35px;
+}
+
+footer p {
+  color: #fff;
 }
